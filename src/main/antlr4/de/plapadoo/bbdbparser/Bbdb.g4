@@ -16,7 +16,7 @@ EscapeSequence
     :   '\\' ['"?abfnrtv\\]
     ;
 
-String : '"' SCharSequence? '"' ;
+STRING : '"' SCharSequence? '"'  {setText(getText().substring(1,getText().length()-1));} ;
 
 Whitespace
     :   [ \t]+
@@ -33,7 +33,7 @@ nil : 'nil' ;
 
 integer : Integer ;
 
-string : String ;
+string : STRING ;
 
 vector : '[' object* ']' ;
 
@@ -49,5 +49,3 @@ object : alist
        | string
        | integer
        | nil ;
-
-bbdbList : vector ('\n' vector)* ;
