@@ -1,0 +1,7 @@
+* jbbdb - parse BBDB from Java
+
+This is a project to parse the [[http://bbdb.sourceforge.net/bbdb.html#SEC67][Insidious Big Brother Database]] (bbdb) files in Java, for access in apps.
+
+** How far along is it?
+
+It's in the initial stages. Please don't expect anything yet.
