@@ -4,4 +4,8 @@ This is a project to parse the [[http://bbdb.sourceforge.net/bbdb.html#SEC67][In
 
 ** How far along is it?
 
-It's in the initial stages. Please don't expect anything yet.
+I can parse my own bbdb file successfully. But I'm not using all the capabilities of bbdb, so please open an issue if anything pops up on your end.
+
+** But it's not Java, it's kotlin!
+
+Yeah, I'm using kotlin because it's easier to handle than Java. It's interoperable though, see [[https://kotlinlang.org/docs/reference/java-interop.html][interop]].
